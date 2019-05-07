@@ -105,8 +105,8 @@ exports.generateMockData = (data) => {
   SnSrSimul.injectidx = SnSrSimul.injectidx + inject;
   SnSrSimul.prodidx = SnSrSimul.prodidx + prod;
   SnSrSimul.autoconsoidx = SnSrSimul.autoconsoidx + autoconso;
-  SnSrSimul.prodmoyidx = SnSrSimul.prodmoyidx + prodmoy;
-  SnSrSimul.prodmaxidx = SnSrSimul.prodmaxidx + prodmax;
+  // SnSrSimul.prodmoyidx = SnSrSimul.prodmoyidx + prodmoy;
+  // SnSrSimul.prodmaxidx = SnSrSimul.prodmaxidx + prodmax;
 
 
   // msg2.SnSrSimul = SnSrSimul;
@@ -126,8 +126,7 @@ let SnSrSimul = {
   injectidx: 39192296.51599542,
   prodidx: 33698025.71109029,
   autoconsoidx: 1505728.1950948501,
-  prodmoyidx: 31432228.449570265,
-  prodmaxidx: 55864457.89914053
+  client_id: process.env.CLIENTID
 }
 
 function sendData(){
